@@ -1,0 +1,39 @@
+<mxfile>
+    <diagram id="ITNncZc6mTnSc8X_e-E-" name="Page-1">
+        <mxGraphModel dx="990" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;p style=&quot;line-height: 0%&quot;&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 15px ; text-align: justify&quot;&gt;the_letter_a&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(215 , 186 , 125) ; font-size: 15px ; text-align: justify&quot;&gt;判断入参第一个字母是不是'a'，&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(215 , 186 , 125) ; font-size: 15px ; text-align: justify&quot;&gt;如果是返回字符串剩余部分，&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 15px ; color: rgb(215 , 186 , 125)&quot;&gt;如果不是以入参为错误返回&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="85" width="240" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Element" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" collapsed="1" parent="1">
+                    <mxGeometry x="20" y="20" width="80" height="26" as="geometry">
+                        <mxRectangle x="40" y="30" width="160" height="116" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="name:String" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="3">
+                    <mxGeometry y="26" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="attributes:Vec&lt;(String, String)&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="3">
+                    <mxGeometry y="56" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="children:Vec&lt;Element&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="3">
+                    <mxGeometry y="86" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&amp;amp;str" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="90" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;font-family: , &amp;#34;consolas&amp;#34; , &amp;#34;liberation mono&amp;#34; , &amp;#34;menlo&amp;#34; , monospace ; font-size: 13.6px&quot;&gt;Result&amp;lt;(&amp;amp;str, ()), &amp;amp;str&amp;gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="90" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="入参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="110" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="出参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="115" width="90" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
