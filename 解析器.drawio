@@ -1,6 +1,6 @@
 <mxfile>
     <diagram id="ITNncZc6mTnSc8X_e-E-" name="Page-1">
-        <mxGraphModel dx="708" dy="1539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="820" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -78,29 +78,47 @@
                 <mxCell id="26" value="出参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="475" y="655" width="115" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="&lt;p style=&quot;line-height: 0%&quot;&gt;&lt;/p&gt;&lt;font color=&quot;#f8f8f2&quot; face=&quot;menlo, monaco, courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgba(10 , 10 , 10 , 0.4)&quot;&gt;map&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;执行解析器A处理字符串&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(215 , 186 , 125) ; font-size: 15px&quot;&gt;转换器B转换A处理后的结果&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
+                <mxCell id="27" value="&lt;p style=&quot;line-height: 0%&quot;&gt;&lt;/p&gt;&lt;font color=&quot;#f8f8f2&quot; face=&quot;menlo, monaco, courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgba(10 , 10 , 10 , 0.4)&quot;&gt;map&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;执行解析器A处理字符串&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(215 , 186 , 125) ; font-size: 15px&quot;&gt;转换器B转换A处理后的结果&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;horizontal=1;" parent="1" vertex="1">
                     <mxGeometry x="275" y="840" width="205" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="Fn：解析器A&lt;br&gt;Fn：结果转换器B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                <mxCell id="28" value="Fn：解析器A&lt;br&gt;Fn：结果转换器B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
                     <mxGeometry x="60" y="855" width="90" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="入参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="29" value="入参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="150" y="880" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;impl Fn(&amp;amp;str) -&amp;gt; Result&amp;lt;(&amp;amp;str, B), &amp;amp;str&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;未解析完的剩余字符串&lt;/li&gt;&lt;li&gt;转换后的结果Rb&lt;/li&gt;&lt;li&gt;异常（要解析的字符串入参）&lt;/li&gt;&lt;/ul&gt;" style="ellipse;aspect=fixed;align=left;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="580" y="805" width="190" height="190" as="geometry"/>
+                <mxCell id="30" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;impl Fn(&amp;amp;str) -&amp;gt; Result&amp;lt;(&amp;amp;str, B), &amp;amp;str&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;未解析完的剩余字符串&lt;/li&gt;&lt;li&gt;转换后的结果Rb&lt;/li&gt;&lt;li&gt;异常（要解析的字符串入参）&lt;/li&gt;&lt;/ul&gt;" style="ellipse;aspect=fixed;align=left;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="595" y="805" width="190" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="&lt;span style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; background-color: rgba(10 , 10 , 10 , 0.4)&quot;&gt;ParseResult&amp;lt;'a, Output&amp;gt; = Result&amp;lt;(&amp;amp;'a str, Output), &amp;amp;'a str&amp;gt;;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                <mxCell id="31" value="&lt;span style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; background-color: rgba(10 , 10 , 10 , 0.4)&quot;&gt;ParseResult&amp;lt;'a, Output&amp;gt; = Result&amp;lt;(&amp;amp;'a str, Output), &amp;amp;'a str&amp;gt;;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="160" y="-174" width="560" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="Parser {&lt;br&gt;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                <mxCell id="32" value="Parser {&lt;br&gt;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="160" y="-40" width="560" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="Type" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F06296;" vertex="1" parent="1">
+                <mxCell id="33" value="Type" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F06296;" parent="1" vertex="1">
                     <mxGeometry x="394" y="-210" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="trait" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFF33;" vertex="1" parent="1">
+                <mxCell id="34" value="trait" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFF33;" parent="1" vertex="1">
                     <mxGeometry x="390" y="-90" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;p style=&quot;line-height: 0%&quot;&gt;&lt;/p&gt;&lt;font color=&quot;#f8f8f2&quot; face=&quot;menlo, monaco, courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgba(10 , 10 , 10 , 0.4)&quot;&gt;left&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;执行解析器A处理字符串&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(215 , 186 , 125) ; font-size: 15px&quot;&gt;执行解析器B处理A剩余的字符串&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(215 , 186 , 125) ; font-size: 15px&quot;&gt;返回执行器A的结果和剩余字符串，A的结果在左&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="1040" width="225" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Fn：解析器A&lt;br&gt;Fn：解析器B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="1065" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="入参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="1090" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="出参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="880" width="115" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;div style=&quot;&quot;&gt;&lt;span&gt;impl&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 13.6px;&quot;&gt;Parser&amp;lt;'a, R1&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Parser解析器&lt;/li&gt;&lt;li&gt;解析器A的结果&lt;/li&gt;&lt;/ul&gt;" style="ellipse;aspect=fixed;align=center;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="612.5" y="1032.5" width="155" height="155" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="出参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="495" y="1090" width="115" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
