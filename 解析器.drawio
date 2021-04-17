@@ -1,6 +1,6 @@
 <mxfile>
     <diagram id="ITNncZc6mTnSc8X_e-E-" name="Page-1">
-        <mxGraphModel dx="820" dy="1639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="898" dy="1539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -135,35 +135,80 @@
                 <mxCell id="45" value="出参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="510" y="1330" width="115" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="&lt;p style=&quot;line-height: 0%&quot;&gt;&lt;/p&gt;&lt;span style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; background-color: rgba(10 , 10 , 10 , 0.4)&quot;&gt;any_char&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;判断第一个字符是不是char&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;返回剩余字符串+第一个char&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
+                <mxCell id="48" value="&lt;p style=&quot;line-height: 0%&quot;&gt;&lt;/p&gt;&lt;span style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; background-color: rgba(10 , 10 , 10 , 0.4)&quot;&gt;any_char&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;判断第一个字符是不是char&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;返回剩余字符串+第一个char&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;horizontal=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="1500" width="230" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="&amp;amp;str" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                <mxCell id="49" value="&amp;amp;str" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
                     <mxGeometry x="70" y="1535" width="90" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="入参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="50" value="入参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="160" y="1560" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="ParseResult&lt;char&gt;&#10;未处理的剩余的字符串&#10;第一个字符&lt;/char&gt;" style="ellipse;aspect=fixed;align=center;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="51" value="ParseResult&lt;char&gt;&#10;未处理的剩余的字符串&#10;第一个字符&lt;/char&gt;" style="ellipse;aspect=fixed;align=center;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="625" y="1502.5" width="155" height="155" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" value="出参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="52" value="出参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="510" y="1560" width="115" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="&lt;p style=&quot;line-height: 0%&quot;&gt;&lt;/p&gt;&lt;span style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; background-color: rgba(10 , 10 , 10 , 0.4)&quot;&gt;pred&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;调用解析器&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;如果解析器返回OK，对结果调用判断函数，如果返回true，则返回结果，否则返回失败&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
+                <mxCell id="53" value="&lt;p style=&quot;line-height: 0%&quot;&gt;&lt;/p&gt;&lt;span style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; background-color: rgba(10 , 10 , 10 , 0.4)&quot;&gt;pred&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;调用解析器&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;如果解析器返回OK，对结果调用判断函数，如果返回true，则返回结果，否则返回失败&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;horizontal=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="1730" width="230" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="Fn:解析器&lt;br&gt;Fn:判断函数" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                <mxCell id="54" value="Fn:解析器&lt;br&gt;Fn:判断函数" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
                     <mxGeometry x="70" y="1765" width="90" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="入参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="55" value="入参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="160" y="1790" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="impl Parser&lt;'a, A&gt;&#10;解析器" style="ellipse;aspect=fixed;align=center;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fontColor=#FFFFFF;" vertex="1" parent="1">
+                <mxCell id="56" value="impl Parser&lt;'a, A&gt;&#10;解析器" style="ellipse;aspect=fixed;align=center;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="640" y="1732.5" width="155" height="155" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="出参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="57" value="出参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="510" y="1790" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&lt;p style=&quot;line-height: 0%&quot;&gt;&lt;/p&gt;&lt;font color=&quot;#f8f8f2&quot; face=&quot;menlo, monaco, courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgba(10 , 10 , 10 , 0.4)&quot;&gt;whitespace_char&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;使用pred方法组合any_char和判断方法&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;判断方法为判断是否为空白字符串&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="1960" width="230" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="1995" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="入参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="2020" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="impl Parser&lt;'a, char&gt;&#10;解析器" style="ellipse;aspect=fixed;align=center;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="1965" width="155" height="155" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="出参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="2022.5" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;p style=&quot;line-height: 0%&quot;&gt;&lt;/p&gt;&lt;font color=&quot;#f8f8f2&quot; face=&quot;menlo, monaco, courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgba(10 , 10 , 10 , 0.4)&quot;&gt;space1&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;使用pred方法组合any_char和判断方法&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;判断方法为判断是否为空白字符串&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="2230" width="230" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="2265" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="入参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="2290" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="impl Parser&lt;'a, Vec&lt;char&gt;&gt;&#10;解析器" style="ellipse;aspect=fixed;align=center;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="2232.5" width="155" height="155" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="出参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="2290" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="&lt;p style=&quot;line-height: 0%&quot;&gt;&lt;/p&gt;&lt;span style=&quot;font-family: , &amp;#34;consolas&amp;#34; , &amp;#34;liberation mono&amp;#34; , &amp;#34;menlo&amp;#34; , monospace ; font-size: 13.6px&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;quoted_string&lt;/font&gt;&lt;/span&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#d7ba7d&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;用于解析字符串，去除前后引号，例如将&quot;Hello&quot;解析为Hello&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="2480" width="230" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="&amp;amp;str" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="2515" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="入参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="2540" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="impl Parser&lt;'a, Vec&lt;char&gt;&gt;&#10;解析器" style="ellipse;aspect=fixed;align=center;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="2482.5" width="155" height="155" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="出参" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;fillColor=#2a2a2a;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="2540" width="130" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
